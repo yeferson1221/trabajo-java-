@@ -1,0 +1,7 @@
+
+=
+java:S1170"!Make this final field static too.(ì¨“?8°½‹‘0
+}
+java:S1450"bRemove the "calculateProductIva" field and declare it as a local variable in the relevant methods.(ùıÉ–ûÿÿÿÿ
+k
+java:S1450"URemove the "number" field and declare it as a local variable in the relevant methods.(Ëğç
