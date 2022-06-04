@@ -1,4 +1,9 @@
-# trabajo-java-
+# trabajo-java-  
+
+## link videos  16 17 18 
+## https://www.youtube.com/watch?v=0ur_VrpnFHU&ab_channel=YefersonValencia
+## https://www.youtube.com/watch?v=02pcQ0FTi1I
+## https://www.youtube.com/watch?v=L6HM3r8INns&ab_channel=YefersonValencia
 
 ## contiene los 18 algoritmos de java
  
