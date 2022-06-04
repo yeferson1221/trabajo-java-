@@ -136,7 +136,7 @@ public class Game implements Deliverable {
 
     /**
      * [
-     *   El metodo devolver es un booleano  con el fin  de
+     *   El metodo   devolver es un booleano  con el fin  de
      *   si devolvio  instancia este
      *   False
      * ]

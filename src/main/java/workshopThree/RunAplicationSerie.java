@@ -6,8 +6,8 @@ import java.util.logging.Logger;
 
 /**
  * [
- *   clase NumberNine contiene un logger para imprimir por consola
- *   tiene una constante con una frase la cual la letra a sera cambiada por la letra e
+ *   clase RunAplicationSeriecontiene un logger para imprimir por consola
+ *   permite ejecutar el proyecto  16
  * ]
  * @author [Yeferson Valencia, alejandro.yand@gmail.com]
  * @since [1,0,0]
