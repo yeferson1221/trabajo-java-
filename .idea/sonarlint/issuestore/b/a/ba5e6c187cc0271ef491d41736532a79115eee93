@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üâÍÂÿÿÿÿÿ
->
-java:S1170"!Make this final field static too.(¹À­œ8ºËÙ‹‘0
-C
-java:S1170"!Make this final field static too.(À”Š•ÿÿÿÿÿ8ºËÙ‹‘0
-^
-java:S1126c"AReplace this if-then-else statement by a single return statement.(â”ıÎ8¾ËÙ‹‘0

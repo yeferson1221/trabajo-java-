@@ -1,6 +1,18 @@
 package workshopThree;
-
+/**
+ * [
+ *   clase Game que implemente la iunterface Deliverablea, tiene sus atributos private
+ *   los tres constructores, uno con argumentos completos, otro solo con dos y el ultimo
+ *   por defecto
+ * ]
+ * @version [1,0.0]
+ *
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ * @since [1,0,0]
+ *
+ */
 public class Game implements Deliverable {
+
     private final int extraHoursFinal=10;
     private final boolean deliveredFinal=false;
     //Atributos
@@ -32,6 +44,15 @@ public class Game implements Deliverable {
         this.creator = creator;
     }
 
+    /**
+     * [
+     *  Getter y setter
+     * ]
+     * @version [1,0.0]
+     *
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     *
+     */
     public String getTitle() {
         return title;
     }
@@ -64,6 +85,15 @@ public class Game implements Deliverable {
         this.creator = creator;
     }
 
+    /**
+     * [
+     *   contiene el ToString que pedian en el Teabajo
+     * ]
+     * @version [1,0.0]
+     *
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     *
+     */
     public String toString(){
         return "Informacion del videojuego: \n" +
                 "\tTitulo: "+title+"\n" +
@@ -72,8 +102,17 @@ public class Game implements Deliverable {
                 "\tCompañia: "+creator;
     }
 
+    /**
+     * [
+     *   El metodo compareTo para hacer la comparacion de las horas Extras
+     * ]
+     * @version [1,0.0]
+     *
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     * @since [1,0,0]
+     *
+     */
     public int compareTo(Object o){
-        //Haciendo el downcasting
         Game v=(Game) o;
         if(extraHours>v.getExtraHours()){
             return 1;
@@ -84,12 +123,25 @@ public class Game implements Deliverable {
         }
     }
 
-
+    /**
+     * [
+     *   El metodo entregar es un booleano  con el fin  de
+     *   Entrgo True se instancia este
+     * ]
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     */
     public void entregar(){
         delivered=true;
     }
 
-
+    /**
+     * [
+     *   El metodo devolver es un booleano  con el fin  de
+     *   si devolvio  instancia este
+     *   False
+     * ]
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     */
     public void devolver(){
         delivered=false;
     }
