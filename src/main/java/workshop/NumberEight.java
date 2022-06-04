@@ -3,7 +3,22 @@ package workshop;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+/**
+ * [
+ *  la clase NumberEight Ingresa un dia de la semana y el sistema con un switch case
+ *  nos permite saber que dia el libre y cual no;
+ * ]
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ */
 public class NumberEight {
+    /**
+     * [
+     *  El dayfree s Ingresa un dia de la semana con un logger por consola
+     *  luego con ul switch nos permite validar el lo que ingresa el usuario
+     *  con los casos que esten disponibles en el sistema
+     * ]
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     */
     public void dayFree(){
         Logger log = Logger.getLogger(NumberEight.class.getName());
         Scanner in = new Scanner(System.in);

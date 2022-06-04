@@ -19,8 +19,6 @@ W
 'src/main/java/workshop/NumberThree.java,9\1\91526c8b55a88f67c60185fee961daf04447a532
 X
 (src/main/java/workshop/NumberTwelve.java,1\9\192b312d6b2cf82e5803b5ac97925ef126b3c511
-Y
-)src/main/java/workshop/NumberFifteen.java,5\5\55afd3c2d19c6e4bd1b98cfe8cdb1967c15fc7c8
 V
 &src/main/java/workshop/NumberFive.java,4\d\4de89de680c13bab356980ebfaf3e287fa2babc3
 V

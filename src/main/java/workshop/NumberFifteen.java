@@ -2,10 +2,27 @@ package workshop;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
+/**
+ * [
+ *  La clase NumberFifteen contiene un  logger private para ingresar por consola
+ *  un atributo number
+ *  un metodo showMenu
+ * ]
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ */
 
 public class NumberFifteen {
     private int number1=1;
     private Logger log = Logger.getLogger(NumberFifteen.class.getName());
+
+    /**
+     * [
+     *  El metodo showMenu muestra un menu con opciones del 1 aL 8  DONDE con un while
+     *  que se ejcuta hasta que no se cumpla  la condicion number1 sea menor o igual a 7  y number1
+     *  sema mayor o 8 
+     * ]
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     */
     public void showMenu(){
         Scanner in = new Scanner(System.in);
         while (number1<=7 ||number1>8){
