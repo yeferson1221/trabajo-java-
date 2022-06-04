@@ -26,6 +26,14 @@ public class NumberFour {
     private Logger log = Logger.getLogger(NumberFour.class.getName());
 
     Scanner in = new Scanner(System.in);
+    /**
+     * [
+     *   El metodo calculateIva permite clalcular el iba
+     *   recibe un numero este  se multiplica por la costante iva el resultado se le suma
+     *   al rpecio original
+     * ]
+     * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+     */
     public void calculateIva(){
         log.info("Ingresar precio del producto");
         number=in.nextDouble();

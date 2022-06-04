@@ -3,6 +3,16 @@ package workshop;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+/**
+ * [
+ *   La clase  contiene logger para imprimir por consola
+ *   el metodo number permite ingreasr un numero identificar numero mayor a 0
+ *   o igual a este
+ * ]
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ * @since [1,0,0]
+ *
+ */
 public class NumberSeven {
     private Logger log = Logger.getLogger(NumberOne.class.toString());
     public void number() {

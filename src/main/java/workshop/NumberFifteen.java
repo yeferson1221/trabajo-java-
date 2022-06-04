@@ -19,7 +19,7 @@ public class NumberFifteen {
      * [
      *  El metodo showMenu muestra un menu con opciones del 1 aL 8  DONDE con un while
      *  que se ejcuta hasta que no se cumpla  la condicion number1 sea menor o igual a 7  y number1
-     *  sema mayor o 8 
+     *  sema mayor o 8
      * ]
      * @author [Yeferson Valencia, alejandro.yand@gmail.com]
      */

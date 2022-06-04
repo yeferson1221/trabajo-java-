@@ -4,6 +4,15 @@ import workshop.NumberOne;
 
 import java.util.logging.Logger;
 
+/**
+ * [
+ *   clase NumberNine contiene un logger para imprimir por consola
+ *   tiene una constante con una frase la cual la letra a sera cambiada por la letra e
+ * ]
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ * @since [1,0,0]
+ *
+ */
 public class RunElectrodomestic {
     public static void main(String[] args) {
         Logger log = Logger.getLogger(NumberOne.class.toString());

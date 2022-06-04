@@ -2,7 +2,15 @@ package workshop;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
-
+/**
+ * [
+ *   clase NumberNine contiene un logger para imprimir por consola
+ *   tiene una constante con una frase la cual la letra a sera cambiada por la letra e
+ * ]
+ * @author [Yeferson Valencia, alejandro.yand@gmail.com]
+ * @since [1,0,0]
+ *
+ */
 public class NumberTwelve {
         public void introInfo() {
             Logger log = Logger.getLogger(NumberTwelve.class.getName());
